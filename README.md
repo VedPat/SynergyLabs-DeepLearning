@@ -16,7 +16,11 @@ It is a convolution neural network that has 48 layers.This model has been pre-tr
 So, we have taken the the **[Animal 10](https://www.kaggle.com/alessiocorrado99/animals10)** Dataset from Kaggle which consist of around 28K medium quality animal images belonging to 10 categories: dog, cat, horse, spyder, butterfly, chicken, sheep, cow, squirrel, elephant out of which we are using only 500 images each of Dog and Horse.
 The Dataset is unstructered, so we have first structured the Dataset using a user defined function. We are using the weights upto mixed7 layer of the INceptionV3 model after which we are adding a relu layer with 0.2 dropout and the after which the final layer has sigmoid as the activation function.
 ## Results
-We are able to achieve a training accuracy of **94.33%** and a validation accuracy of **92.00%**
+We are able to achieve the following-
+| Training Accuracy | Validation Accuracy | Training Loss | Validation Loss |
+|:-----------------:|:-------------------:|:-------------:|:---------------:|
+| **0.9433**        | **0.9200**          | **0.2262**    |**0.3355**       |
+
 ## References
 1. **https://www.mathworks.com/help/deeplearning/ref/inceptionv3.html#:~:text=Inception%2Dv3%20is%20a%20convolutional,the%20ImageNet%20database%20%5B1%5D.&text=You%20can%20use%20classify%20to,using%20the%20Inception%2Dv3%20model**
 2. **https://software.intel.com/content/www/us/en/develop/articles/inception-v3-deep-convolutional-architecture-for-classifying-acute-myeloidlymphoblastic.html#:~:text=Introduction,of%20Deep%20Learning%20Convolutional%20Architectures.&text=Inception%20V3%20was%20trained%20for,was%20a%20first%20runner%20up.**
