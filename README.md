@@ -26,6 +26,6 @@ We are able to achieve the following-
 2. **https://software.intel.com/content/www/us/en/develop/articles/inception-v3-deep-convolutional-architecture-for-classifying-acute-myeloidlymphoblastic.html#:~:text=Introduction,of%20Deep%20Learning%20Convolutional%20Architectures.&text=Inception%20V3%20was%20trained%20for,was%20a%20first%20runner%20up.**
 3. **https://builtin.com/data-science/transfer-learning**
 4. **https://blog.paperspace.com/popular-deep-learning-architectures-resnet-inceptionv3-squeezenet/**
-5. **Cousera - DeepLearning.AI TensorFlow Developer**
+5. **Cousera - DeepLearning.AI TensorFlow Developer Course**
 ## Link to Google Colab Notebook
 **https://colab.research.google.com/drive/18qmDRWcUG5vv4ZRSvvCl5A9AzNB6l7OF?usp=sharing**
