@@ -13,7 +13,7 @@ It is a convolution neural network that has 48 layers.This model has been pre-tr
 
 ![InceptionV3 Model Architecture](https://camo.githubusercontent.com/d93725579fc7e7140a60faadaaf47ae93eda84b6/68747470733a2f2f7777772e50657465724d6f7373416d6c416c6c52657365617263682e636f6d2f6d656469612f696d616765732f7265706f7369746f726965732f434e4e2e6a7067)
 
-So, we have taken the the [Animal 10](https://www.kaggle.com/alessiocorrado99/animals10) Dataset from Kaggle which consist of around 28K medium quality animal images belonging to 10 categories: dog, cat, horse, spyder, butterfly, chicken, sheep, cow, squirrel, elephant out of which we are using only 500 images each of Dog and Horse.
+So, we have taken the the **[Animal 10]**(https://www.kaggle.com/alessiocorrado99/animals10) Dataset from Kaggle which consist of around 28K medium quality animal images belonging to 10 categories: dog, cat, horse, spyder, butterfly, chicken, sheep, cow, squirrel, elephant out of which we are using only 500 images each of Dog and Horse.
 The Dataset is unstructered, so we have first structured the Dataset using a user defined function. We are using the weights upto mixed7 layer of the INceptionV3 model after which we are adding a relu layer with 0.2 dropout and the after which the final layer has sigmoid as the activation function.
 ## Results
 We are able to achieve a training accuracy of **94.33%** and a validation accuracy of **92.00%**
