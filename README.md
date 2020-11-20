@@ -27,3 +27,5 @@ We are able to achieve the following-
 3. **https://builtin.com/data-science/transfer-learning**
 4. **https://blog.paperspace.com/popular-deep-learning-architectures-resnet-inceptionv3-squeezenet/**
 5. **Cousera - DeepLearning.AI TensorFlow Developer**
+## Link to Google Colab Notebook
+**https://colab.research.google.com/drive/18qmDRWcUG5vv4ZRSvvCl5A9AzNB6l7OF?usp=sharing**
